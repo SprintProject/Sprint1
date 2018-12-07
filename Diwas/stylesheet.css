@@ -1,0 +1,191 @@
+div a{
+	text-decoration: none !important;
+	color: black;
+}
+div a:hover{
+	background-color: #00e2d3;
+	color:white;
+}
+
+.name, .title, .navmenu, .search form{
+	display: inline-block;
+    font-family: 'Indie Flower', cursive;
+    width: 23%;
+    font-size: 31px;
+    text-align: center;
+    margin: 27px 0;
+
+}.search{
+  display: inline;
+}
+.search input:first-child{
+  border-radius: 38px;
+    border-style: dashed;
+    padding-left: 18px;
+}
+button:focus , input:focus{
+    outline: none;
+}
+.search button{
+  position: relative;
+    right: 58px;
+    bottom: 1px;
+    background-color: white;
+    border: none;
+    width: 40px;
+    border-radius: 40px;
+}
+td form{
+  display: inline;
+  margin-left: -5px;
+}
+td form:first-child input{
+  border: none;
+  border-right: 1px solid black;
+  border-top-left-radius: 90px;
+  border-bottom-left-radius: 90px;
+  background-color: white;
+}
+td form:first-child input:hover{
+  background-color:#00FFD8;
+  color: white;
+}
+td form{
+  display: inline;
+  margin-left: -5px;
+}
+td form:last-child input{
+  border: none;
+  border-right: 1px solid black;
+  border-top-left-radius: 90px;
+  border-bottom-left-radius: 90px;
+  background-color: white;
+}
+td form:last-child input:hover{
+  background-color:#00FFD8;
+  color: white;
+}
+.editbutton{
+  width: 100px;
+}
+.send{
+	margin-top: 100px; 
+}
+tr:hover{
+	background-color: white !important;
+	color: black !important;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+.overlaysearch {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlaysearch:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popupsearch {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popupsearch h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popupsearch .closesearch {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popupsearch .closesearch:hover {
+  color: #06D85F;
+}
+.popupsearch .contentsearch {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .boxsearch{
+    width: 70%;
+  }
+  .popupsearch{
+    width: 70%;
+  }
+}
